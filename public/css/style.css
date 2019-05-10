@@ -1,0 +1,179 @@
+* {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+}
+
+.morning {
+    background-image: url("../images/Mask Group 11.png");
+    height: 853px;
+}
+
+.daybackground {
+    background-image: url("../images/day_background.png");
+    height: 853px;
+}
+
+.night {
+    background-image: url("../images/night_background.png");
+    height: 853px;
+}
+
+.serch-location {
+    height: 50px;
+    width: 100%;
+    background: rgb(255, 255, 255, 0.2);
+    margin-top: 15px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    outline: none;
+    text-align: center;
+}
+
+::placeholder {
+    color: white;
+}
+
+.location-icon img {
+    position: absolute;
+    top: 31px;
+    left: 50px;
+}
+
+.circle {
+    margin-top: 20px;
+}
+
+.weather-circle {
+    width: 380px;
+    height: 380px;
+    border-radius: 50%;
+    background: rgb(255, 255, 255, 0.2);
+    margin: 0 auto;
+}
+
+.weather-circle .degree {
+    padding-top: 20px;
+}
+
+.weather-circle .degree p {
+    color: white;
+    font-size: 100px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.circle .weather-icon {
+    padding-top: 25px;
+    text-align: right;
+}
+
+.circle .weather-icon i {
+    color: #5DDEF5;
+    font-size: 80px;
+}
+
+.circle .weather-status-text {
+    padding-top: 50px;
+}
+
+.circle .weather-status-text p {
+    color: white;
+    font-size: 24px;
+    font-weight: 400px;
+    text-transform: capitalize;
+}
+
+.circle .line {
+    border-top: 1px solid #B1D9FF;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+.circle .date {
+    padding-top: 15px;
+}
+
+.circle .date p {
+    color: white;
+    font-size: 20px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.circle .time {
+    padding-top: 20px;
+}
+
+.circle .time p {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.wind-section {
+    margin-top: 20px;
+}
+
+.wind-section .weather-icon {
+    text-align: center;
+}
+
+.wind-section .weather-icon i {
+    color: #B1D9FF;
+    font-size: 40px;
+}
+
+.wind-section .wind-text {
+    padding-top: 15px;
+}
+
+.wind-section .wind-text p {
+    color: #B1D9FF;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+.wind-section .wind-speed {
+    padding-top: 9px;
+}
+
+.wind-section .wind-speed p {
+    color: #B1D9FF;
+    font-size: 18px;
+}
+
+.comming-days {
+    margin-top: 40px;
+}
+
+.day-box {
+    background: rgb(255, 255, 255, 0.2);
+    border-radius: 10px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    margin-top: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.comming-days .day-box .day p {
+    font-size: 18px;
+    color: white;
+    text-transform: capitalize;
+}
+
+.comming-days .day-box i {
+    color: white;
+}
+
+.comming-days .day-box .day-temperature {
+    text-align: right;
+}
+
+.comming-days .day-box .day-temperature p {
+    color: white;
+}
