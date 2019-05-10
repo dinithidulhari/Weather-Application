@@ -1,3 +1,5 @@
+//weather app
+
 import React, { Component } from 'react';
 
 import CurrentTempretureControl from './components/currenttempreturecontrol/CurrentTempretureControl';
